@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+ .header{
+    text-align: center;
+    padding: 25px;
+ }
+  .nav {
+  overflow:hidden;
+    background-color: rgb(26, 23, 48);
+  }
+  .nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+  }
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .column{
+    float: left;
+    padding: 10px;
+  }
+  .column.side{
+    width: 25%;
+  }
+  .column.middle{
+    width:50%
+  }
+  .row{
+    display: table;
+  }
+
+
+
+  
